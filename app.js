@@ -77,9 +77,7 @@ app.use((req,res,next)=>{
 //   res.send(registeredUser);
 // })
 
-app.get("/",(req,res)=>{
-    res.render("listings/home.ejs");
-})
+
 // app.get("/LOGINE",(req,res)=>{
 //     res.render("listings/LOGIN.ejs");
 // })
